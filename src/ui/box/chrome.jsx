@@ -261,14 +261,14 @@ export default class Chrome extends React.Component {
     return (
       <div className={className}>
         <div className="auth0-lock-cred-pane-internal-wrapper">
-          <Header
+          {/* <Header
             title={title}
             name={name}
             backHandler={backHandler && ::this.handleBack}
             backgroundUrl={backgroundUrl}
             backgroundColor={primaryColor}
             logoUrl={logo}
-          />
+          /> */}
           <div className="auth0-lock-content-wrapper">
             <TransitionGroup>
               <CSSTransition classNames="global-message" timeout={MESSAGE_ANIMATION_DURATION}>
