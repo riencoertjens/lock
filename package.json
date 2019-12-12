@@ -20,7 +20,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "grunt dev",
-    "build": "grunt build",
+    "build": "rm -rf ../assets/bearer-lock && grunt build && cp -r build ../assets/bearer-lock",
     "design": "grunt design",
     "dev": "grunt dev",
     "dist": "grunt dist",
